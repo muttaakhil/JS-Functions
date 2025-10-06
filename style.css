@@ -1,0 +1,68 @@
+/* General Page Styling */
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #a2c2e2, #fcd3a1);
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Title */
+h2 {
+  text-align: center;
+  color: #2b2b2b;
+  background-color: #ffe28a;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+}
+
+/* Card Containers */
+.card {
+  background-color: #fff8dc;
+  border: 2px solid #f0c36d;
+  border-radius: 12px;
+  margin: 20px auto;
+  padding: 20px;
+  width: 70%;
+  box-shadow: 3px 3px 10px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+/* Inputs and Buttons */
+input {
+  padding: 8px 10px;
+  margin: 5px;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  font-size: 1em;
+}
+
+button {
+  padding: 8px 15px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Output Boxes */
+.output-box {
+  margin-top: 10px;
+  background-color: #fefbd8;
+  border: 1px solid #e5c07b;
+  border-radius: 8px;
+  padding: 10px;
+  font-family: monospace;
+  white-space: pre-line;
+}
